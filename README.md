@@ -3,10 +3,19 @@
 
 'pcheck'는 tcp port가 open 됐는지 확인하는 간단한 프로그램입니다.
 
+### Download / Installation
+---
+
+```
+# wget https://raw.githubusercontent.com/YoungjuWang/pcheck/master/pcheck/pcheck
+# chmod +x pcheck; mv pcheck /usr/local/bin/
+```
+
 ### Help
 ---
 
 ```
+# pcheck --help
 "pcheck" check certain TCP port is opend
 
 Usage:
